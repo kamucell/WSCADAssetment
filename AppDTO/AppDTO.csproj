@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.DataStructure\App.DataStructure.csproj" />
+    <ProjectReference Include="..\AppDataReader\AppDataReader.csproj" />
+    <ProjectReference Include="..\AppShape\AppShape.csproj" />
+  </ItemGroup>
+
+</Project>

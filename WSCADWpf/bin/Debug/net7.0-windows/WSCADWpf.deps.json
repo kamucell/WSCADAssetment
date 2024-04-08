@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "WSCADWpf/1.0.0": {
+        "dependencies": {
+          "App.DataStructure": "1.0.0",
+          "AppDTO": "1.0.0",
+          "AppDataReader": "1.0.0",
+          "AppShape": "1.0.0"
+        },
+        "runtime": {
+          "WSCADWpf.dll": {}
+        }
+      },
+      "App.DataStructure/1.0.0": {
+        "runtime": {
+          "App.DataStructure.dll": {}
+        }
+      },
+      "AppDataReader/1.0.0": {
+        "runtime": {
+          "AppDataReader.dll": {}
+        }
+      },
+      "AppDTO/1.0.0": {
+        "dependencies": {
+          "App.DataStructure": "1.0.0",
+          "AppDataReader": "1.0.0",
+          "AppShape": "1.0.0"
+        },
+        "runtime": {
+          "AppDTO.dll": {}
+        }
+      },
+      "AppShape/1.0.0": {
+        "dependencies": {
+          "App.DataStructure": "1.0.0"
+        },
+        "runtime": {
+          "AppShape.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "WSCADWpf/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "App.DataStructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppDataReader/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppDTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppShape/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
