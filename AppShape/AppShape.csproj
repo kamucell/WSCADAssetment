@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\App.DataStructure\App.DataStructure.csproj" />
-    <ProjectReference Include="..\AppDTO\AppDTO.csproj" />
   </ItemGroup>
 
 </Project>
