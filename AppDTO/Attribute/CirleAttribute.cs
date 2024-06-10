@@ -1,6 +1,7 @@
-﻿using App.DataStructure.Interface;
+﻿using App.DataStructure.Coordinate.Abstract;
+using AppDTO.Attribute.Abstract;
 
-namespace App.DataStructure.Attribute
+namespace AppDTO.Attribute
 {
     public class CirleAttribute:ICirleAttribute
     {

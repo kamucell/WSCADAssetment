@@ -1,4 +1,4 @@
-﻿namespace App.DataStructure.Interface
+﻿namespace App.DataStructure.Coordinate.Abstract
 {
     public interface ITriangleCoordinate : ICoordinate
     {

@@ -1,7 +1,7 @@
-﻿using App.DataStructure.Interface;
-using AppShape.Interface;
+﻿using AppShape.Interface;
 using System;
 using System.Windows.Controls;
+using AppDTO.Attribute.Abstract;
 
 namespace AppShape
 {

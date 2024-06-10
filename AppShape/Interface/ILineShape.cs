@@ -1,5 +1,5 @@
-﻿using App.DataStructure.Interface;
-using System.Windows.Controls;
+﻿using System.Windows.Controls;
+using AppDTO.Attribute.Abstract;
 
 namespace AppShape.Interface
 {
@@ -7,6 +7,6 @@ namespace AppShape.Interface
     {
         
         void Draw(Canvas canvas);
-        void SetAttribute(App.DataStructure.Interface.ILineAttribute attribute);
+        void SetAttribute(ILineAttribute attribute);
     }
 }

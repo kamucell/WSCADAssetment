@@ -1,11 +1,12 @@
-﻿using App.DataStructure.Interface;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using AppDataReader.JSONStrcuture;
 using AppShape;
 using AppShape.Interface;
 using App.DataStructure.Coordinate;
 using System.Windows.Media;
+using App.DataStructure.Coordinate.Abstract;
+using AppDTO.Attribute;
 
 namespace AppDTO
 {
@@ -26,10 +27,10 @@ namespace AppDTO
                 {
                     case "line":
                         lnShp = new LineShape();
-                        ((ILineShape)lnShp).SetAttribute(new App.DataStructure.Attribute.LineAttribute()
+                        ((ILineShape)lnShp).SetAttribute(new LineAttribute()
                         {
                             Color = ToColor(item.color),
-                            Border = new App.DataStructure.Attribute.BorderAttribute()
+                            Border = new BorderAttribute()
                             {
                                 Size = Convert.ToInt32(item.border ?? "1")
                             },
@@ -42,11 +43,11 @@ namespace AppDTO
                         break;
                     case "circle":
                         lnShp = new CircleShape();
-                        ((ICircleShape)lnShp).SetAttribute(new App.DataStructure.Attribute.CirleAttribute()
+                        ((ICircleShape)lnShp).SetAttribute(new CirleAttribute()
                         {
                             Color = ToColor(item.color),
                             IsFilled = item.filled,
-                            Border = new App.DataStructure.Attribute.BorderAttribute()
+                            Border = new BorderAttribute()
                             {
                                 Size = Convert.ToInt32(item.border ?? "1")
                             },
@@ -59,9 +60,9 @@ namespace AppDTO
                         break;
                     case "triangle":
                         lnShp = new TriangleShape();
-                        ((ITriangleShape)lnShp).SetAttribute(new App.DataStructure.Attribute.TriangleAttribute()
+                        ((ITriangleShape)lnShp).SetAttribute(new TriangleAttribute()
                         {
-                            Border = new App.DataStructure.Attribute.BorderAttribute()
+                            Border = new BorderAttribute()
                             {
                                 Size = Convert.ToInt32(item.border ?? "1")
                             },

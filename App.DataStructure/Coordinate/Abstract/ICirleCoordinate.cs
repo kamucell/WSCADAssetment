@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.DataStructure.Interface
+namespace App.DataStructure.Coordinate.Abstract
 {
-    public interface ICirleCoordinate :ICoordinate
+    public interface ICirleCoordinate : ICoordinate
     {
-        
+
         public double Radious { get; set; }
     }
 }

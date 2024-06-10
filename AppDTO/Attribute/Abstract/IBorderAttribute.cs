@@ -1,4 +1,4 @@
-﻿namespace App.DataStructure.Interface
+﻿namespace AppDTO.Attribute.Abstract
 {
     public interface IBorderAttribute
     {

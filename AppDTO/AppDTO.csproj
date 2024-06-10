@@ -9,7 +9,6 @@
   <ItemGroup>
     <ProjectReference Include="..\App.DataStructure\App.DataStructure.csproj" />
     <ProjectReference Include="..\AppDataReader\AppDataReader.csproj" />
-    <ProjectReference Include="..\AppShape\AppShape.csproj" />
   </ItemGroup>
 
 </Project>

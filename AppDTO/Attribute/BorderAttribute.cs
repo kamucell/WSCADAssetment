@@ -1,6 +1,6 @@
-﻿using App.DataStructure.Interface;
+﻿using AppDTO.Attribute.Abstract;
 
-namespace App.DataStructure.Attribute
+namespace AppDTO.Attribute
 {
     public class BorderAttribute : IBorderAttribute
     {

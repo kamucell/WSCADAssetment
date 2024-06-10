@@ -1,4 +1,4 @@
-﻿using App.DataStructure.Interface;
+﻿using App.DataStructure.Coordinate.Abstract;
 
 namespace App.DataStructure.Coordinate
 {

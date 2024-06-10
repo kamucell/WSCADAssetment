@@ -1,8 +1,8 @@
-﻿using App.DataStructure.Interface;
-using AppShape.Interface;
+﻿using AppShape.Interface;   
 using System.Windows.Controls;
 using System.Windows.Media;
 using System.Windows.Shapes;
+using AppDTO.Attribute.Abstract;
 
 namespace AppShape
 {
@@ -22,7 +22,7 @@ namespace AppShape
             canvas.Children.Add(line);
         }
 
-        public void SetAttribute(App.DataStructure.Interface.ILineAttribute attribute)
+        public void SetAttribute(ILineAttribute attribute)
         {
             _attribute = attribute;
         }

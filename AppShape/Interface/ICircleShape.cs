@@ -1,5 +1,6 @@
 ﻿using System.Windows.Controls;
-using App.DataStructure.Interface;
+using AppDTO.Attribute.Abstract;
+
 
 namespace AppShape.Interface
 {

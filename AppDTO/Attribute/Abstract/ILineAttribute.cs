@@ -1,4 +1,6 @@
-﻿namespace App.DataStructure.Interface
+﻿using App.DataStructure.Coordinate.Abstract;
+
+namespace AppDTO.Attribute.Abstract
 {
     public interface ILineAttribute : IShapeAttribute
     {
